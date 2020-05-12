@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kenney Mirror</title>
+  <!-- tailwind -->
+  <link rel="stylesheet" href="./css/tailwind.css">
+</head>
+
+<body>
+
+  <!-- header -->
+  <header id="header" class="border-b-2">
+    <div class="w-4/5 mx-auto hidden md:block">
+      <a href="" id="kenney-logo"><img src="./img/logo.png"></a>
+    </div>
+    <div class="bg-gray-custom text-gray-700 py-1">
+      <ul class="w-4/5 mx-auto flex justify-end space-x-4 capitalize text-xs font-bold">
+        <li><a href="" class="hover:underline">donate</a></li>
+        <li><a href="" class="hover:underline">documentation</a></li>
+        <li><a href="" class="hover:underline">labs</a></li>
+        <li><a href="" class="hover:underline">support</a></li>
+      </ul>
+    </div>
+    <div class="lg:hidden absolute right-0 m-5">
+      <i class="fas fa-bars text-lg text-white cursor-pointer"></i>
+    </div>
+    <div class="hidden lg:block">
+      <ul class="w-4/5 h-16 mx-auto flex justify-end items-center space-x-1 capitalize font-bold text-sm">
+        <li><a href="" class="kenney-link"><i class="fas fa-gamepad align-middle mr-3"></i>games</a></li>
+        <li><a href="" class="kenney-link"><i class="fas fa-cog align-middle mr-3"></i>tools</a></li>
+        <li><a href="" class="kenney-link"><i class="fas fa-cube align-middle mr-3"></i>assets</a></li>
+        <li><a href="" class="kenney-link"><i class="fas fa-shopping-bag align-middle mr-3"></i>store</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- hero -->
+  <section id="hero-section" class="bg-green-custom py-20">
+    <div class="w-4/5 mx-auto flex relative justify-between">
+      <div class="lg:w-3/5 md:w-3/4">
+        <h3 class="text-white text-2xl font-semibold text-center md:text-left">
+          Free game assets, no strings attached.
+        </h3>
+        <p class="text-gray-800 text-sm my-8">
+          We've created thousands of sprites, 3D models and sound effects which you can use in your projects. The
+          generous public domain license allows any kind of use, even commercial!</p>
+        <div class="flex md:block flex-col md:flex-row space-y-2 md:space-x-2">
+          <button class="kenney-button">download assets</button>
+          <button class="kenney-button">donate</button>
+        </div>
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 hidden md:block">
+        <img src="./img/assetbox.png" class="kenney-assetbox">
+      </div>
+    </div>
+  </section>
+
+  <!-- news -->
+  <section id="news-section" class="py-20 bg-gray-custom">
+    <div class="w-4/5 mx-auto">
+      <h3 class="text-gray-600 text-2xl font-semibold text-center md:text-left mb-4">Latest news</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div>
+          <img src="./img/nitroneers_background-500x281.jpg" class="kenney-news-img">
+          <a href="" class="kenney-news-title">Nitroneers</a>
+          <span class="text-xs text-gray-500 block">GAME</span>
+        </div>
+        <div>
+          <img src="./img/assetforge_background-500x281.jpg" class="kenney-news-img">
+          <a href="" class="kenney-news-title">Asset Forge</a>
+          <span class="text-xs text-gray-500 block">TOOL</span>
+        </div>
+        <div>
+          <img src="./img/sample-500x281.png" class="kenney-news-img">
+          <a href="" class="kenney-news-title">Nature Kit</a>
+          <span class="text-xs text-gray-500 block">GAME ASSETS</span>
+        </div>
+        <div>
+          <img src="./img/kca_background-315x250.png" class="kenney-news-img">
+          <a href="" class="kenney-news-title">Kenney Character Assets</a>
+          <span class="text-xs text-gray-500 block">STORE</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- cta -->
+  <section id="cta-section" class="bg-purple-custom py-20">
+    <div class="w-4/5 mx-auto flex relative justify-between">
+      <div class="w-auto hidden md:block">
+        <img src="./img/pixeland.png" class="kenney-pixeland">
+      </div>
+      <div class="md:w-1/2">
+        <h3 class="text-white text-2xl font-semibold text-center md:text-left">
+          Game developer? Join the club!
+        </h3>
+        <p class="text-gray-800 text-sm my-5">Starting game development can be confusing, that's why we have created
+          Pixeland! A community for game developers open to everyone, from student to professional. Join our community
+          today on Discord and (soon) a physical location!</p>
+        <div class="flex md:block flex-col md:flex-row space-y-2 md:space-x-2">
+          <button class="kenney-button">join discord</button>
+          <button class="kenney-button">pixeland.io</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer id="footer">
+    <div class="bg-gray-custom py-8">
+      <div class="w-4/5 mx-auto flex flex-col md:flex-row space-y-2 justify-between">
+        <div>
+          <h3 class="font-semibold text-gray-600 mb-2">Games</h3>
+          <ul class="space-y-2">
+            <li><a href="" class="kenney-footer-link">Nitroneers</a></li>
+            <li><a href="" class="kenney-footer-link">KeyCars</a></li>
+            <li><a href="" class="kenney-footer-link">Pixepal</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="font-semibold text-gray-600 mb-2">Tools</h3>
+          <ul class="space-y-2">
+            <li><a href="" class="kenney-footer-link">Asset Forge</a></li>
+            <li><a href="" class="kenney-footer-link">GameGO</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="font-semibold text-gray-600 mb-2">Game assets</h3>
+          <ul class="space-y-2">
+            <li><a href="" class="kenney-footer-link">Overview</a></li>
+            <li><a href="" class="kenney-footer-link">2D Game assets</a></li>
+            <li><a href="" class="kenney-footer-link">3D Game assets</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="font-semibold text-gray-600 mb-2">Contact</h3>
+          <ul class="space-y-2 md:text-right">
+            <li><a href="" class="kenney-footer-link">Support</a></li>
+            <li><a href="" class="kenney-footer-link">Twitter</a></li>
+            <li><a href="" class="kenney-footer-link">Facebook</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="bg-gray-dark py-8 text-gray-light">
+      <div class="w-4/5 mx-auto flex flex-col space-y-4 lg:flex-row justify-between items-center">
+        <div class="flex items-center space-x-4">
+          <a href=""><img src="./img/logo-outline.png"></a>
+          <span class="text-xs">&</span>
+          <a href=""><img src="./img/logo-pixeland.png"></a>
+        </div>
+        <div>
+          <span class="text-sm font-light">Copyright © 2010 - 2020 All rights reserved</span>
+        </div>
+        <div>
+          <a href="" class="kenney-footer-link">Terms of Service / Privacy policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- font awesome -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+</body>
+
+</html>
